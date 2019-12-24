@@ -9,3 +9,9 @@
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
+
+Cocktail.create(name: "Gin Tonic")
+Cocktail.create(name: "Basil Smash")
+Cocktail.create(name: "Moscow Mule")
+
+Dose.create(description: "20ml", cocktail_id: 1, ingredient_id: 1)
