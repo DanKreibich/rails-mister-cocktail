@@ -1,0 +1,23 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.cocktail-name {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  p {
+    text-align: center;
+  }
+}
+
+img {
+  object-fit: cover;
+  height: 200px;
+}
+
+li {
+  display: inline-block;
+}

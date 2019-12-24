@@ -1,1 +1,28 @@
 // Specific CSS for your home-page
+
+//find out how you can fill the whole screen with content/background
+
+body{
+  height: 100vh;
+}
+
+.container{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.left {
+  background-color: #F8B195;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  padding: 20px 30px;
+  background-color: #F67281;
+}
