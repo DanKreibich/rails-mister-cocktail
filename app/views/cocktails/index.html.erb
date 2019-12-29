@@ -6,15 +6,17 @@
 
   <div class="col-6 cards">
     <% @cocktails.each do |cocktail| %>
-      <!--<a href="<%= cocktail_path(cocktail) %>">-->
-        <div class="card">
-          <img src="https://source.unsplash.com/300x300/?cocktail" alt="cocktail image">
-          <div class="cocktail-name">
-            <p><%= link_to cocktail.name, cocktail_path(cocktail) %></p>
+
+          <div class="card" style="background-image: url('<%= cl_image_path cocktail.photo %>')">
+            <div class="cocktail-name">
+              <p><%= cocktail.name%></p>
+            </div>
+            <%= link_to "", cocktail_path(cocktail), class: 'card-link' %>
           </div>
-        </div>
-        <!--</a>-->
+
+
     <% end %>
     <p class="link"><%= link_to "new cocktail", new_cocktail_path %></p>
   </div>
+
 </div>

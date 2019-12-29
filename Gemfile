@@ -64,3 +64,9 @@ gem 'simple_form'
 
 # made for hiding secrets etc.
 gem 'dotenv-rails', groups: [:development, :test]
+
+# Cloudinary Gem
+gem 'cloudinary', '~> 1.9.1'
+
+# Gem to upload images associated to models
+gem 'carrierwave', '~> 1.2'
