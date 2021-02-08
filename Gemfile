@@ -69,4 +69,4 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary', '~> 1.9.1'
 
 # Gem to upload images associated to models
-gem 'carrierwave', '~> 1.2'
+gem 'carrierwave', '~> 1.3'
